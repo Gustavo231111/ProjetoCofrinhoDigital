@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+   background-image: url(unnamed.jpg);
+   
+  }
+
+
+  h1 {
+   font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  font-size: 50px;
+animation: floatUpDown 4s ease-in-out infinite;
+box-shadow: 0 8px 20px rgb(255, 255, 255);
+     border-radius: 12px;
+  }
+ @keyframes floatUpDown {
+    0%, 100% {
+      transform: translateY(0);
+      filter: drop-shadow(0 0 6px rgba(255,255,255,0.6));
+    }
+    50% {
+      transform: translateY(-20px);
+      filter: drop-shadow(0 10px 10px rgba(255,255,255,0.8));
+    }
+ }
+img{
+  width: 200px;
+  padding-left: 110px;
+ 
+}
+
+
+  h2 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+  }
+ 
+#uva{
+ margin-left: 30px;
+ font-size: 25px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ border: none;
+ color: white;
+ background-color: green;
+ cursor: pointer;
+    box-shadow: 0 4px 8px rgba(75, 246, 69, 0.89);
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+ 
+}
+#uva:hover{
+  box-shadow: 0 8px 20px rgba(71, 246, 23, 0.955);
+    transform: translateY(-3px);
+}
+  button {
+    margin: 0 5px 10px 5px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+  }
+
+
+ 
+  .contador div {
+   margin: 4px 0;
+  padding: 9px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 22px;
+  }
+ 
+  #total {
+   font-size: 40px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ padding-right: 350px;
+ 
+   
+   
+  }
+  input {
+    padding: 6px 8px;
+    width: 150px;
+   border-radius: 12px;
+    border: 2px solid #ccc;
+    font-size: 22px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+
+  #sacarDinheiro {
+    padding: 8px 14px;
+    background: rgb(255, 247, 0);
+    border: none;
+    color: white;
+   font-size: 22px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(233, 252, 26, 0.819);
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+   
+  }
+   #sacarDinheiro:hover {
+     box-shadow: 0 8px 20px rgb(242, 255, 0);
+    transform: translateY(-3px);
+  }
+
+
+  #esvaziar{
+    padding: 8px 14px;
+    background: #f90019;
+    border: none;
+    color: white;
+   font-size: 25px;
+  font-family: 'Gill  Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+cursor: pointer;
+    box-shadow: 0 4px 8px rgba(241, 56, 56, 0.701);
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+  }
+ 
+ 
+  #esvaziar:hover{
+    box-shadow: 0 8px 20px rgba(247, 5, 5, 0.955);
+    transform: translateY(-3px);
+  }
