@@ -22,7 +22,8 @@ Este projeto simula um cofrinho digital com moedas fictícias, permitindo visual
 2. Abra o `index.html` no navegador
 
 ## CAPTURA DE TELA
-![Captura de tela 2025-05-18 111027](https://github.com/user-attachments/assets/47e9489d-d9b4-4276-bac1-439b7f24ecdb)
+![Captura de tela 2025-05-18 111027](https://github.com/user-attachments/assets/e88fca96-3170-4b8f-834d-cfe42d251f30)
+
 
 ## MELHORIAS FUTURAS
 - Armazenar o valor no localStorage (voltar com o valor salvo)
